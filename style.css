@@ -1,0 +1,35 @@
+body,html{
+    height:100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("osho2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vw;
+    
+}
+body{
+    overflow: hidden;
+}
+
+.O{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: blue;
+    font-size: xx-large;
+    font-weight: bolder;
+
+    
+}
+.os{
+    position: absolute;
+    top: 45%;
+    left: 41%;
+    font-size: large;
+    font-weight: bolder;
+
+}
+a{
+    color: maroon;
+}
