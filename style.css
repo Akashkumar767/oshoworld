@@ -8,8 +8,7 @@ body{
     padding: 10px;
     }}
 main{
-    width:100vw;
-    height: 50vw;
+    padding: 30px 60px;
     background-color: aquamarine;
     
 }
@@ -44,9 +43,7 @@ a{
     color: maroon;
 }
 footer{
-    width: 100vw;
-    height: 5vw;
-    padding: 2vw;
+    padding: 20px;
     background-color: brown;
     text-align: center;
 
