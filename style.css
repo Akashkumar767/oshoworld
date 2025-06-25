@@ -1,16 +1,27 @@
 body{
-    height:auto;
-    padding: 0;
-    margin: 0;
     background-image: url("osho2.jpg");
-    background-size: cover;
+    background-size: 0vmax;
     background-position: center;
-    height: 100vw;
     }
 @media (max-width:768px){
     header,main,footer{
     padding: 10px;
     }}
+main{
+    width:100vw;
+    height: 50vw;
+    background-color: aquamarine;
+    
+}
+#right{
+    float: right;
+}
+#para{
+    color: crimson;
+    text-align: center;
+}
+     
+
 .O{
     position: absolute;
     top: 20vw;
@@ -31,4 +42,12 @@ body{
 }
 a{
     color: maroon;
+}
+footer{
+    width: 100vw;
+    height: 5vw;
+    padding: 2vw;
+    background-color: brown;
+    text-align: center;
+
 }
