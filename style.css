@@ -9,6 +9,11 @@ body,html{
     height: 100vw;
     
 }
+@media (max-width:768px){
+    header,main,footer{
+    padding: 10px;
+    }
+}
 body{
     overflow: hidden;
 }
