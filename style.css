@@ -26,7 +26,7 @@ header{
 } 
 main{
     padding: 30px 60px;
-    background-color: aquamarine;
+    background-color: cornsilk;
     
 }
 #img1{
@@ -42,16 +42,16 @@ main{
     border-style: groove;
 }
 #para{
-    color: crimson;
+    color: blue;
     text-align: center;
 }
      
 
 .O{
     position: absolute;
-    top: 30vw;
-    left: 35vw;
-    color: blue;
+    top: 25vw;
+    left: 34vw;
+    color:red;
     font-size: x-large;
     font-weight: bolder;
 
@@ -59,7 +59,7 @@ main{
 }
 .os{
     position: absolute;
-    top: 32vw;
+    top: 27vw;
     left:35vw;
     font-size: small;
     font-weight: bolder;
