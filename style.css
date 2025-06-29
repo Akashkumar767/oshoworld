@@ -2,6 +2,9 @@ body{
     background-image: url("osho2.jpg");
     background-size: 0vmax;
     background-position: center;
+    border-width:10px;
+    border-color: chartreuse;
+    border-style: groove;
     }
 @media (max-width:768px){
     header,main,footer{
@@ -12,8 +15,17 @@ main{
     background-color: aquamarine;
     
 }
+#img1{
+    border-width: 1opx;
+    border-color: brown;
+    border-style: groove;
+
+}
 #right{
     float: right;
+    border-width: 1opx;
+    border-color: brown;
+    border-style: groove;
 }
 #para{
     color: crimson;
@@ -24,16 +36,16 @@ main{
 .O{
     position: absolute;
     top: 20vw;
-    left: 30vw;
+    left: 35vw;
     color: blue;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bolder;
 
     
 }
 .os{
     position: absolute;
-    top: 24vw;
+    top: 22vw;
     left:41vw;
     font-size: large;
     font-weight: bolder;
