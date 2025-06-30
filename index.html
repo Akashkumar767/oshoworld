@@ -9,8 +9,28 @@
 <body> 
     <header>
         <div id="H">
-        <sup>OSHO</sup><sub>a man of words</sub>
+        <sup>OSHO</sup><sub>the man of words</sub>
         </div>
+        <div class="actions">
+        <button onclick="like()">👍 Like (<span id="like-count">0</span>)</button>
+        <button onclick="view()">👁 View (<span id="view-count">0</span>)</button>
+        <button onclick="subscribe()">🔔 Subscribe</button>
+        </div><br><br>
+        <div class="search">
+        <input type="text" id="search" placeholder="Search...">
+        <button onclick="search()">Search</button>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+         </div>
+
+        <ul class="menu" id="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
     </header>
     <main>
         <img id="img1" src="osho3.jpg" height="400" width="350" alt="pic">
