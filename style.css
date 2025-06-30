@@ -84,7 +84,7 @@ main{
 
 .O{
     position: absolute;
-    top: 25vw;
+    top: 30vw;
     left: 34vw;
     color:red;
     font-size: x-large;
@@ -94,7 +94,7 @@ main{
 }
 .os{
     position: absolute;
-    top: 27vw;
+    top: 32vw;
     left:35vw;
     font-size: small;
     font-weight: bolder;
