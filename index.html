@@ -5,9 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OSHO</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body> 
     <header>
+        <div class="share">
+        <a class="btn whatsapp" href="https://wa.me/?text=Check%20this%20out%20https://akashkumar767.github.io/My-own-website/" target="_blank">
+         <i class="fab fa-whatsapp"></i> Share
+        </a>
+
+        <a class="btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://akashkumar767.github.io/My-own-website/" target="_blank">
+         <i class="fab fa-facebook"></i> Share
+        </a>
+        <a class="btn twitter" href="https://twitter.com/intent/tweet?url=https://akashkumar767.github.io/My-own-website/" target="_blank">
+         <i class="fab fa-twitter"></i> Tweet
+        </a>
+        </div>
         <div id="H">
         <sup>OSHO</sup><sub>the man of words</sub>
         </div>
@@ -15,7 +29,7 @@
         <button onclick="like()">👍 Like (<span id="like-count">0</span>)</button>
         <button onclick="view()">👁 View (<span id="view-count">0</span>)</button>
         <button onclick="subscribe()">🔔 Subscribe</button>
-        </div><br><br>
+        </div><br><br><br>
         <div class="search">
         <input type="text" id="search" placeholder="Search...">
         <button onclick="search()">Search</button>
@@ -31,6 +45,7 @@
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
+        
     </header>
     <main>
         <img id="img1" src="osho3.jpg" height="400" width="350" alt="pic">
