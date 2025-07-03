@@ -8,8 +8,9 @@ body{
     border-style: groove;
     }
 @media (max-width:768px){
-    header,main,footer{
+    header,nav,main,footer{
     padding: 10px;
+    text-align: center;
     }
 }
 header{
@@ -81,6 +82,8 @@ header{
 
 
 #H{
+    position: relative;
+    left: 30px;
     color: blue;
     text-align: center;
     text-decoration: solid;
