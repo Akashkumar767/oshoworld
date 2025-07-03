@@ -98,12 +98,14 @@ main{
     
 }
 #img1{
+    margin:5px;
     border-width: 1opx;
     border-color: brown;
     border-style: groove;
 
 }
 #right{
+    margin: ;
     float: right;
     border-width: 1opx;
     border-color: brown;
