@@ -29,6 +29,11 @@ let likes = 0, views = 0;
     const menu = document.getElementById('menu');
     menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
   }
+  function redirectToindex() {
+    window.location.href = "index.html";
+  }
+
+
 
 
 

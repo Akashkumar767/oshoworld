@@ -15,6 +15,9 @@ header{
     padding: 10px 10px;
     background-color: black;
 } 
+#Lo{
+  color: #25D366;
+}
 .actions{
     float: right;
 } 
