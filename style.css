@@ -12,7 +12,7 @@ body{
     }
 }
 header{
-    padding: 10px 10px;
+    padding: 5px 5px;
     background-color: black;
 } 
 #Lo{
@@ -104,6 +104,16 @@ main{
     border-color: brown;
     border-style: groove;
 }
+.im{
+  display: flex;
+  gap: 100px;
+}
+#SATYA{
+  font-size: x-large;
+  font-weight: bold;
+  font-style: normal;
+  color: orangered;
+}
 #para{
     color: blue;
     text-align: center;
@@ -111,19 +121,19 @@ main{
      
 
 .O{
-    position: absolute;
-    top: 30vw;
-    left: 34vw;
+    position:relative;
+    top: 0vw;
+    left: 23vw;
     color:red;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bolder;
 
     
 }
 .os{
-    position: absolute;
-    top: 32vw;
-    left:35vw;
+    position: relative;
+    top: 0vw;
+    left:28.5vw;
     font-size: small;
     font-weight: bolder;
 
