@@ -12,11 +12,11 @@ body{
     }
 }
 header{
-    padding: 5px 5px;
+    padding: 5px 10px;
     background-color: black;
 } 
 #Lo{
-  color: #25D366;
+  color: tomato;
 }
 .actions{
     float: right;
